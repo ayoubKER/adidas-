@@ -1,0 +1,79 @@
+*{
+    background-color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth ;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    
+}
+.pro a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+.pro a:hover{
+    color: rgb(208, 192, 226);
+    
+}
+
+.logo img{
+    width: 40%;
+}
+.cuc img{
+    padding: 100px 200px;
+}
+.cuc h1{
+    display: flex;
+   justify-content:flex-end ;
+   font-weight: 700;
+   padding: 0px 500px;
+   
+}
+ 
+
+
+
+
+
+
+
+
+.main a{
+    justify-content:center;
+    
+}
+.main-btn{
+    color: #fff;
+    background-color: #000309;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+ 
+    
+
+}

@@ -1,0 +1,68 @@
+*{
+    background-color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth ;
+    text-decoration: none;
+    background: url(/adidas/);
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    
+}
+.pro a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+.pro a:hover{
+    color: rgb(208, 192, 226);
+    
+}
+
+.logo img{
+    width: 40%;
+}
+.adidas a {
+    color: black;
+    padding: 1px 
+}
+
+
+.adidas a img{
+   padding:20% 3%;
+   
+}
+
+.adidas img{
+    width: 100%;
+    height: 80%;
+}
+.adidas :hover{
+    color: rgb(208, 192, 226);
+}
+
+.adidas img:hover{
+    transform: scale(1.100);
+    transition: 0.5s ease;
+}
+
+
+
